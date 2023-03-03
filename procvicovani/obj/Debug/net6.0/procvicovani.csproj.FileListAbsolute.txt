@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\procvicovani\bin\Debug\net6.0\procvicovani.exe
+C:\Users\PC\source\repos\procvicovani\bin\Debug\net6.0\procvicovani.deps.json
+C:\Users\PC\source\repos\procvicovani\bin\Debug\net6.0\procvicovani.runtimeconfig.json
+C:\Users\PC\source\repos\procvicovani\bin\Debug\net6.0\procvicovani.dll
+C:\Users\PC\source\repos\procvicovani\bin\Debug\net6.0\procvicovani.pdb
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\procvicovani.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\procvicovani.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\procvicovani.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\procvicovani.AssemblyInfo.cs
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\procvicovani.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\procvicovani.dll
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\refint\procvicovani.dll
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\procvicovani.pdb
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\procvicovani.genruntimeconfig.cache
+C:\Users\PC\source\repos\procvicovani\obj\Debug\net6.0\ref\procvicovani.dll

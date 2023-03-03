@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\soutez\bin\Debug\net6.0\soutez.exe
+C:\Users\PC\source\repos\soutez\bin\Debug\net6.0\soutez.deps.json
+C:\Users\PC\source\repos\soutez\bin\Debug\net6.0\soutez.runtimeconfig.json
+C:\Users\PC\source\repos\soutez\bin\Debug\net6.0\soutez.dll
+C:\Users\PC\source\repos\soutez\bin\Debug\net6.0\soutez.pdb
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\soutez.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\soutez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\soutez.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\soutez.AssemblyInfo.cs
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\soutez.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\soutez.dll
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\refint\soutez.dll
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\soutez.pdb
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\soutez.genruntimeconfig.cache
+C:\Users\PC\source\repos\soutez\obj\Debug\net6.0\ref\soutez.dll

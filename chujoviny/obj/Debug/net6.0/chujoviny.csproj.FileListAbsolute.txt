@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\chujoviny\bin\Debug\net6.0\chujoviny.exe
+C:\Users\PC\source\repos\chujoviny\bin\Debug\net6.0\chujoviny.deps.json
+C:\Users\PC\source\repos\chujoviny\bin\Debug\net6.0\chujoviny.runtimeconfig.json
+C:\Users\PC\source\repos\chujoviny\bin\Debug\net6.0\chujoviny.dll
+C:\Users\PC\source\repos\chujoviny\bin\Debug\net6.0\chujoviny.pdb
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\chujoviny.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\chujoviny.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\chujoviny.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\chujoviny.AssemblyInfo.cs
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\chujoviny.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\chujoviny.dll
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\refint\chujoviny.dll
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\chujoviny.pdb
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\chujoviny.genruntimeconfig.cache
+C:\Users\PC\source\repos\chujoviny\obj\Debug\net6.0\ref\chujoviny.dll

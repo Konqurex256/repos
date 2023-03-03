@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\DELTA\bin\Debug\net6.0\DELTA.exe
+C:\Users\PC\source\repos\DELTA\bin\Debug\net6.0\DELTA.deps.json
+C:\Users\PC\source\repos\DELTA\bin\Debug\net6.0\DELTA.runtimeconfig.json
+C:\Users\PC\source\repos\DELTA\bin\Debug\net6.0\DELTA.dll
+C:\Users\PC\source\repos\DELTA\bin\Debug\net6.0\DELTA.pdb
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\DELTA.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\DELTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\DELTA.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\DELTA.AssemblyInfo.cs
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\DELTA.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\DELTA.dll
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\refint\DELTA.dll
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\DELTA.pdb
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\DELTA.genruntimeconfig.cache
+C:\Users\PC\source\repos\DELTA\obj\Debug\net6.0\ref\DELTA.dll

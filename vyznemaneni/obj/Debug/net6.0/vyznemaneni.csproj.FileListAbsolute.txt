@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\vyznemaneni\bin\Debug\net6.0\vyznemaneni.exe
+C:\Users\PC\source\repos\vyznemaneni\bin\Debug\net6.0\vyznemaneni.deps.json
+C:\Users\PC\source\repos\vyznemaneni\bin\Debug\net6.0\vyznemaneni.runtimeconfig.json
+C:\Users\PC\source\repos\vyznemaneni\bin\Debug\net6.0\vyznemaneni.dll
+C:\Users\PC\source\repos\vyznemaneni\bin\Debug\net6.0\vyznemaneni.pdb
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\vyznemaneni.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\vyznemaneni.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\vyznemaneni.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\vyznemaneni.AssemblyInfo.cs
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\vyznemaneni.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\vyznemaneni.dll
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\refint\vyznemaneni.dll
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\vyznemaneni.pdb
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\vyznemaneni.genruntimeconfig.cache
+C:\Users\PC\source\repos\vyznemaneni\obj\Debug\net6.0\ref\vyznemaneni.dll
