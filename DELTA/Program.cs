@@ -582,6 +582,9 @@ namespace ConsoleApp9
         
         */
             #endregion
+            #region
+            Console.WriteLine("dneska je krasny den :D");
+            #endregion
         }
     }
 }
