@@ -196,18 +196,19 @@ namespace loops
 
         public bool AzNahoru()
         {
-            if (AktualniPatro != pocetPater)
-            {
-                for (int i = 0; i < pocetPater; i++)
-                {
-                    AktualniPatro++;
-                }
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            //if (AktualniPatro != pocetPater)
+            //{
+            //    for (int i = 0; i < pocetPater; i++)
+            //    {
+            //        AktualniPatro++;
+            //    }
+            //    return true;
+            //}
+            //else
+            //{
+            //    return false;
+            //}
+            while (JedNahoru()) { JedNahoru(); return true; } return false;
         }
 
         public bool AzDolu()
