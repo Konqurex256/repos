@@ -108,7 +108,7 @@ namespace loops
             int patra = 0;
             do
             {
-                Console.Write("AHoj, Já jsem výtah Joník. Zvol mi počet pater: ");
+                Console.Write("Ahoj, Já jsem výtah Joník. Zvol mi počet pater: ");
             }
             while (!int.TryParse(Console.ReadLine(), out patra));
             
