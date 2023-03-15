@@ -582,7 +582,6 @@ namespace ConsoleApp9
         
         */
             #endregion
-
         }
     }
 }
