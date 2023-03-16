@@ -582,20 +582,9 @@ namespace ConsoleApp9
         
         */
             #endregion
-            #region zvirata
-
             #region Zvire
             /*
-            Pes Evzen = new Pes("Evzen", 23, "Cerna");
-            Console.WriteLine(Evzen.Jmeno + Evzen.Vek + Evzen.BarvaSrsti);
-            Evzen.OzvySe();
-            Evzen.kousniMichala();
-            */
-            #endregion
-            }
         }
-        #region Zvire
-
         abstract class Zvire
         {
 
@@ -675,14 +664,8 @@ namespace ConsoleApp9
             {
                 Console.WriteLine("Kousu michala grrrrr xD");
             }
-        }
         */
-        #endregion
-
-    }
-    #endregion
-}
+            #endregion
+        }
     }
 }
-
-
