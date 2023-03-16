@@ -582,10 +582,106 @@ namespace ConsoleApp9
         
         */
             #endregion
-            #region
-                
+            #region zvirata
+
+            #region Zvire
+            /*
+            Pes Evzen = new Pes("Evzen", 23, "Cerna");
+            Console.WriteLine(Evzen.Jmeno + Evzen.Vek + Evzen.BarvaSrsti);
+            Evzen.OzvySe();
+            Evzen.kousniMichala();
+            */
             #endregion
+            }
         }
+        #region Zvire
+
+        abstract class Zvire
+        {
+
+            public int Vek { get; private set; }
+            public string Barva { get; private set; }
+
+            protected Zvire(int vek, string barva)
+            {
+                Vek = vek;
+                Barva = barva;
+            }
+
+
+        }
+        abstract class Savec
+        {
+
+            private string _zvuk;
+
+            protected Savec(string zvuk)
+            {
+                _zvuk = zvuk;
+            }
+
+            public void OzvySe()
+            {
+                Console.WriteLine(_zvuk);
+            }
+        }
+        abstract class Ryba
+        {
+            public string Oblibenejidlo { get; private set; }
+            private string _zvuk;
+
+            protected Ryba(string oblibenejidlo, string zvuk) : base()
+            {
+                Oblibenejidlo = oblibenejidlo;
+                _zvuk = zvuk;
+            }
+
+            public void OzvySe()
+            {
+                Console.WriteLine(_zvuk);
+            }
+            public void Plav()
+            {
+                Console.WriteLine("plavu");
+            }
+        }
+
+        class Michal
+        {
+            public int IQ { get; private set; }
+
+            public Michal(int iQ)
+            {
+                IQ = iQ;
+            }
+            public void Mluv()
+            {
+
+            }
+        }
+        /*
+        class Pes : Zvire
+        {
+            public Pes(string jmeno, int vek, string barvaSrsti) : base(vek, barvaSrsti, "hafff")
+            {
+                Jmeno = jmeno;
+            }
+
+
+            public string Jmeno { get; private set; }
+
+
+            public void kousniMichala()
+            {
+                Console.WriteLine("Kousu michala grrrrr xD");
+            }
+        }
+        */
+        #endregion
+
+    }
+    #endregion
+}
     }
 }
 
