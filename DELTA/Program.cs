@@ -659,7 +659,7 @@ namespace ConsoleApp9
 
             */
             #endregion
-            //adam smrdi
+            //adam smrdi :D
         }
     }
 }
