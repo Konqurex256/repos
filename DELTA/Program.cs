@@ -546,6 +546,10 @@ namespace ConsoleApp9
 
         public bool AzNahoru()
         {
+            
+            //while (JedNahoru()) { JedNahoru(); }
+            //return false;
+            
             if (AktualniPatro != PocetPater)
             {
                 for (int i = 0; i < PocetPater; i++)
