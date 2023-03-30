@@ -72,7 +72,83 @@
 
 
             #endregion
+            #region class
 
+            Vytah Joník = new Vytah(12);
+        }
+    }
+    class Vytah
+    {
+        //konstruktor
+        public Vytah(int pp) //vstup do ()
+        {
+            PocetPater = pp;
+        }
+
+        public int AktualniPatro = 0; //verejne pristupny, modifikovany v konstruktoru
+        private int PocetPater; //pristupny pouze v class Vytah
+        public bool JedNahoru() //metoda vracejici True/False
+        {
+            if (AktualniPatro >= PocetPater)
+            {
+                return false;
+            }
+            AktualniPatro++;
+            return true;
+        }
+        public bool JedDolu()
+        {
+            if (AktualniPatro <= 0)
+            {
+                return false;
+            }
+            AktualniPatro--;
+            return true;
+        }
+        public bool AzNahoru()
+        {
+
+            while (JedNahoru()) { JedNahoru(); }
+            return false;
+
+            //if (AktualniPatro != PocetPater)
+            //{
+            //    for (int i = 0; i < PocetPater; i++)
+            //    {
+            //        AktualniPatro++;
+            //    }
+            //    return true;
+            //}
+            //else
+            //{
+            //    return false;
+            //}
+        }
+        public bool AzDolu()
+        {
+            while (JedDolu()) { JedDolu(); }
+            return false;
+
+            //if (AktualniPatro != 0)
+            //{
+            //    for (int i = 0; i < PocetPater; i++)
+            //    {
+            //        AktualniPatro--;
+            //    }
+            //    return true;
+            //}
+            //else
+            //{
+            //    return false;
+            //}
+        }
+        public override string ToString() //prepise co se stane kdyz cw(Joník)
+        {
+            return $"jsem vytah a jezdim mezi patry 0 - {PocetPater}, aktualne jsem v patre {AktualniPatro}";
+
+
+
+            #endregion
         }
     }
 }
