@@ -43,6 +43,9 @@
                 Console.WriteLine(ii);
             }
 
+            Random random = new Random(); 
+            int rand = random.Next(1, 10); //int rand prijme nahodnou hodnotu funkce random -> 1 az 10
+
             #endregion
 
         }
