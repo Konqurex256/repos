@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
+            //Vytah Joník = new Vytah(12); //class
+
+            //Kolo kolo = new Kolo(); //interface
+            //kolo.Jezdi(50);
             #region zaklady
+            /*
 
             Console.WriteLine(); //vypise do konzole s novym radkem
             Console.Write(""); //vypise do konzole bez noveho radkem
@@ -70,14 +75,10 @@
             int[,] arr2d = { { 1, 2 }, { 3, 4 } }; //promenna obsahujici vice hodnot stejneho druhu, ma pevnou delku ale 2d
             List<int> list = new List<int>(); //pole na steroidech, nema pevnou delku
 
-
+            */
             #endregion
             #region class
-
-            Vytah Joník = new Vytah(12); //class
-
-            Kolo kolo = new Kolo(); //interface
-            kolo.Jezdi(50);
+            /*
         }
     }
     class Vytah
@@ -149,23 +150,26 @@
         {
             return $"jsem vytah a jezdim mezi patry 0 - {PocetPater}, aktualne jsem v patre {AktualniPatro}";
 
-        }
-
-        #endregion
-    }
-            #region momentalne
-
-    class Kolo : IJezdici //class kolo ze ktere dedi metoda IJezdici (I se vyuziva pred zacatkem jmena interface)
-    {
-        public void Jezdi(int rychlost) //metoda ktera vypise:
-        {
-            Console.WriteLine($"jedu rycvhlosti {rychlost} km/h");
-        }
-    }
-
-    interface IJezdici
-    {
-        void Jezdi(int rychlost);
-    }
+        
+        */
             #endregion
+            #region momentalne
+            /*
+
+        class Kolo : IJezdici //class kolo ze ktere dedi metoda IJezdici (I se vyuziva pred zacatkem jmena interface)
+        {
+            public void Jezdi(int rychlost) //metoda ktera vypise:
+            {
+                Console.WriteLine($"jedu rycvhlosti {rychlost} km/h");
+            }
+        }
+
+        interface IJezdici
+        {
+            void Jezdi(int rychlost);
+        
+            */
+            #endregion
+        }
+    }
 }
