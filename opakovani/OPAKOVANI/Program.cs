@@ -13,7 +13,7 @@
             int i = 0; //promenna vyuzivana na cisla
             bool b = true; //promenna ktzera ma dve hodnoty, bud True nebo False
             double d = 1.1; //int promenna s moznosti pro destine cislo
-            Convert.ToInt32 (d); //preveze na int hodnotu
+            Convert.ToInt32(d); //preveze na int hodnotu
             // && //znamena "a" v podminkach
             // || //znamena "nebo" v podminkach
             // % //modus je specialni operat ktery vraci zbybajici hodnotu z deleni (10%4=2)
@@ -29,7 +29,7 @@
             {
 
             }
-            
+
             do //udelej 
             {
 
@@ -55,8 +55,8 @@
                     Console.WriteLine(1);
                     break;
             }
-            
-            Random random = new Random(); 
+
+            Random random = new Random();
             int rand = random.Next(1, 10); //int rand prijme nahodnou hodnotu funkce random -> 1 az 10
             Console.WriteLine($"{Math.PI}"); //umozuje psat v cw bez nutnosti + ; Math. funkce
             // .Lenght() //delka daneho slova/stringu od nuly
@@ -66,15 +66,18 @@
             // .IndexOf("") //vypise na jake pozici se dane pismeno /char nachazi -> od nuly
             // .ToUpper() //slovo -> SLOVO
             // .ToLower() //SLOVO -> slovo
-            int[] arr = {1, 2, 3 }; //promenna obsahujici vice hodnot stejneho druhu, ma pevnou delku
-            int[,] arr2d = { {1, 2 }, {3, 4 } }; //promenna obsahujici vice hodnot stejneho druhu, ma pevnou delku ale 2d
+            int[] arr = { 1, 2, 3 }; //promenna obsahujici vice hodnot stejneho druhu, ma pevnou delku
+            int[,] arr2d = { { 1, 2 }, { 3, 4 } }; //promenna obsahujici vice hodnot stejneho druhu, ma pevnou delku ale 2d
             List<int> list = new List<int>(); //pole na steroidech, nema pevnou delku
 
 
             #endregion
             #region class
 
-            Vytah Joník = new Vytah(12);
+            Vytah Joník = new Vytah(12); //class
+
+            Kolo kolo = new Kolo(); //interface
+            kolo.Jezdi(50);
         }
     }
     class Vytah
@@ -85,8 +88,8 @@
             PocetPater = pp;
         }
 
-        public int AktualniPatro = 0; //verejne pristupny, modifikovany v konstruktoru
-        private int PocetPater; //pristupny pouze v class Vytah
+        public int AktualniPatro = 0; //verejne pristupny, modifikovany v konstruktoru ; velke pismeno pro rozliseni
+        private int PocetPater; //pristupny pouze v class Vytah ; male pismeno pro rozliseni (mam to blbe a uz to nechci predelavat)
         public bool JedNahoru() //metoda vracejici True/False
         {
             if (AktualniPatro >= PocetPater)
@@ -146,14 +149,23 @@
         {
             return $"jsem vytah a jezdim mezi patry 0 - {PocetPater}, aktualne jsem v patre {AktualniPatro}";
 
-
-
-            #endregion
         }
+
+        #endregion
+    }
             #region momentalne
 
-
-
-            #endregion
+    class Kolo : IJezdici //class kolo ze ktere dedi metoda IJezdici (I se vyuziva pred zacatkem jmena interface)
+    {
+        public void Jezdi(int rychlost) //metoda ktera vypise:
+        {
+            Console.WriteLine($"jedu rycvhlosti {rychlost} km/h");
+        }
     }
+
+    interface IJezdici
+    {
+        void Jezdi(int rychlost);
+    }
+            #endregion
 }
