@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\OPAKOVANI\\OPAKOVANI\\OPAKOVANI.csproj": {}
+    "C:\\Users\\PC\\source\\repos\\opakovani\\OPAKOVANI\\OPAKOVANI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\OPAKOVANI\\OPAKOVANI\\OPAKOVANI.csproj": {
+    "C:\\Users\\PC\\source\\repos\\opakovani\\OPAKOVANI\\OPAKOVANI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\OPAKOVANI\\OPAKOVANI\\OPAKOVANI.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\opakovani\\OPAKOVANI\\OPAKOVANI.csproj",
         "projectName": "OPAKOVANI",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\OPAKOVANI\\OPAKOVANI\\OPAKOVANI.csproj",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\opakovani\\OPAKOVANI\\OPAKOVANI.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC\\source\\repos\\OPAKOVANI\\OPAKOVANI\\obj\\",
         "projectStyle": "PackageReference",

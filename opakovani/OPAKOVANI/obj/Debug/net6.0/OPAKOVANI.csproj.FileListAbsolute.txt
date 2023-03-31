@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\bin\Debug\net6.0\OPAKOVANI.exe
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\bin\Debug\net6.0\OPAKOVANI.deps.json
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\bin\Debug\net6.0\OPAKOVANI.runtimeconfig.json
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\bin\Debug\net6.0\OPAKOVANI.dll
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\bin\Debug\net6.0\OPAKOVANI.pdb
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\OPAKOVANI.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\OPAKOVANI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\OPAKOVANI.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\OPAKOVANI.AssemblyInfo.cs
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\OPAKOVANI.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\OPAKOVANI.dll
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\refint\OPAKOVANI.dll
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\OPAKOVANI.pdb
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\OPAKOVANI.genruntimeconfig.cache
+C:\Users\PC\source\repos\OPAKOVANI\OPAKOVANI\obj\Debug\net6.0\ref\OPAKOVANI.dll

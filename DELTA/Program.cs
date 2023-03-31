@@ -663,6 +663,42 @@ namespace ConsoleApp9
 
             */
             #endregion
+            #region interface
+            /*
+
+            Kolo kolo = new Kolo();
+            kolo.Jezdi(50);
+
+        }
+        class Kolo : IJezdici
+        {
+            public void Jezdi(int rychlost)
+            {
+                Console.WriteLine($"jedu rycvhlosti {rychlost} km/h");
+            }
+        }
+        class Auto : IJezdici, IMotorovy
+        {
+            public void Jezdi(int rychlost)
+            {
+                Console.WriteLine($"jedu rycvhlosti {rychlost} km/h");
+            }
+            public void DelejZvuk(string zvuk)
+            {
+                Console.WriteLine(zvuk);
+            }
+        }
+
+        interface IJezdici
+        {
+            void Jezdi(int rychlost);
+        }
+        interface IMotorovy
+        {
+            void DelejZvuk(string zvuk);
+
+            */
+            #endregion
         }
     }
 }
