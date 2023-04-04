@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq.Expressions;
+using System.Reflection.PortableExecutable;
 
 namespace GoblinAdventure
 {
@@ -6,17 +8,15 @@ namespace GoblinAdventure
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ahoj, vítej v mé hře, toto je klasické RPG, akorát budu ještě chtít herní nick :D\n");
+            Console.WriteLine("Ahoj, vítej v mé hře, toto je klasické RPG, jménem Goblin Advanture\n");
             Thread.Sleep(500);
             Console.WriteLine(".");
             Thread.Sleep(500);
             Console.WriteLine(".");
             Thread.Sleep(500);
             Console.WriteLine(".\n");
-            Console.Write("Nick: ");
-            string nick = Console.ReadLine();
 
-            Console.WriteLine($"Ahoj {nick}, vítej v Goblin Adventure!\n");
+            Console.WriteLine($"Ahoj, vítej v Goblin Adventure!\n");
             Thread.Sleep(1000);
 
             Console.WriteLine("Pro začátek ti řeknu jak se tato hra hraje\n");
@@ -25,13 +25,15 @@ namespace GoblinAdventure
             Thread.Sleep(500);
             Console.WriteLine("Prozatím tato hra bude mít 5 levelů (to je hodně na konzolovou aplikaci:>)");
             Console.WriteLine("Tak jdeme na to ne? :D\n\n");
+            Thread.Sleep(500);
+            Console.Clear();
             Console.WriteLine("-LEVEL 1-");
             Console.WriteLine("\"Šlimák\"");
+            Enemy Šlimák = new Enemy(100, "Šlimák", 40);
 
             int health = 50;
             for (int zivoty = 200; zivoty >= 0;)
             {
-
                 Random random = new Random();
                 int PD = random.Next(1, 10);
                 string akce = "";
@@ -44,8 +46,8 @@ namespace GoblinAdventure
                 switch (akce)
                 {
                     case "attack":
-                        Console.WriteLine("-30 životů");
-                        zivoty = (zivoty - 30);
+                        Console.WriteLine("-40 životů");
+                        zivoty = (zivoty - 40);
                         if (zivoty > 0)
                         {
                             Console.WriteLine(zivoty);
@@ -54,12 +56,12 @@ namespace GoblinAdventure
                         {
                             break;
                         }
-                        
+
                         Thread.Sleep(500);
                         break;
                     case "heal":
-                        Console.WriteLine("+5 hp");
-                        health = (health + 5);
+                        Console.WriteLine("+10 hp");
+                        health = (health + 10);
                         Console.WriteLine(health);
                         Thread.Sleep(500);
                         break;
@@ -223,14 +225,32 @@ namespace GoblinAdventure
                     case 8:
                     case 9:
                         break;
-                    default:
-                        break;
+                    //default:
+                    //    break;
                 }
             }
         }
-        //static int 
     }
+
+    class Enemy
+    {
+
+        public int hp;
+        public string jmeno;
+
+
+        public Enemy(int hp, string jmeno, int pd)
+        {
+            this.hp = hp;
+            this.jmeno = jmeno;
+            this.pd = pd;
+        }
+
         
+
+
+
+    }
 }
 
 
