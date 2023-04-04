@@ -34,6 +34,7 @@ namespace GoblinAdventure
             Console.WriteLine("\"Šlimák\"");
             
             Enemy Šlimák = new Enemy(100, 10, 15, "Šlimák"); //hp_boss prichozi_dmg odchozi_dmg name
+            php = 100;
             Šlimák.start();
 
             #region for
@@ -262,6 +263,7 @@ namespace GoblinAdventure
         public string jmeno { get; private set; }
         public int pd { get; private set; }
         public int dmg { get; private set; }
+        public int php { get; set; }
 
         public void start()
         {
@@ -309,8 +311,8 @@ namespace GoblinAdventure
                     case 4:
                     case 6:
                     case 10:
-                        hp = hp - pd;
-                        Console.WriteLine($"Oh ne, dostal si damage, ted mas {hp} hp");
+                        php -= pd;
+                        Console.WriteLine($"Oh ne, dostal si damage, ted mas {php} hp");
                         break;
                     case 0:
                     case 1:
