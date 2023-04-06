@@ -263,7 +263,7 @@ namespace GoblinAdventure
 
         public void start()
         {
-            Console.WriteLine($"mas {php}hp");
+            Console.WriteLine($"Máš {php}hp");
             for (int zivoty = hp; hp >= 0;)
             {
                 string akce = "";
