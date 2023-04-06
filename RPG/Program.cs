@@ -15,7 +15,7 @@ namespace GoblinAdventure
 
             Console.WriteLine("Pro začátek ti řeknu jak se tato hra hraje\n");
             Thread.Sleep(500);
-            Console.WriteLine("útok - ATTACK\nvyléčení - HEAL\nblokovaní - BLOCK");
+            Console.WriteLine("útok - ATTACK\nvyléčení - HEAL\nblokovaní - BLOCK\n");
             Thread.Sleep(500);
             //Console.WriteLine("Prozatím tato hra bude mít 5 levelů (to je hodně na konzolovou aplikaci:>)");
             //Console.WriteLine("Tak jdeme na to ne? :D\n\n");
